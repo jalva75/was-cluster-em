@@ -18,7 +18,7 @@ primary:
 secondary:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://34.64.196.129:3306/demo?useUnicode=true&serverTimezone=Asia/Seoul
+    url: jdbc:mysql://34.64.196.129:3306/demo2?useUnicode=true&serverTimezone=Asia/Seoul
     user: root
     password: "root01"
     initialization-mode: always
