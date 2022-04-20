@@ -40,4 +40,4 @@ server:
       threshold: 1200
     connector:
       uri-encoding: UTF-8
-      use-body-encoding-for-uri: true
+      use-body-encoding-for-uri: false
