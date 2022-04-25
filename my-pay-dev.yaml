@@ -29,13 +29,13 @@ secondary:
       maximum-pool-size: 5
 server:
   lena:
-#     session:
-#       enabled: true
-#       primary-host: session-0.session.lena.svc.cluster.local
-#       primary-port: 5180
-#       secondary-host: session-1.session.lena.svc.cluster.local
-#       secondary-port: 5180
-#       external_session_store_enabled: true
+     session:
+       enabled: true
+       primary-host: lena-session-0.lena-session.lena.svc.cluster.local
+       primary-port: 5180
+       secondary-host: lena-session-1.lena-session.lena.svc.cluster.local
+       secondary-port: 5180
+       external_session_store_enabled: true
     stuckThread:
       threshold: 1200
     connector:
