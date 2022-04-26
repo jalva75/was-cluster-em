@@ -27,17 +27,3 @@ secondary:
       dialect: org.hibernate.dialect.MySQL5Dialec
     hikari:
       maximum-pool-size: 5
-server:
-  lena:
-#     session:
-#      enabled: true
-#       primary-host: lena-session-0.lena-session.lena.svc.cluster.local
-#       primary-port: 5180
-#       secondary-host: lena-session-1.lena-session.lena.svc.cluster.local
-#       secondary-port: 5180
-#       external_session_store_enabled: true
-    stuckThread:
-      threshold: 1200
-    connector:
-      uri-encoding: UTF-8
-      use-body-encoding-for-uri: false
