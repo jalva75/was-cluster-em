@@ -6,8 +6,8 @@ primary:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql://34.64.112.225:3306/petclinic?useSSL=false&serverTimezone=Asia/Seoul
-    user: lena
-    password: "!lena00"
+    user: root
+    password: "root"
     initialization-mode: always
     sql-script-encoding: utf-8
     hibernate:
@@ -19,8 +19,8 @@ secondary:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql://34.64.112.225:3306/petclinic2?useSSL=false&serverTimezone=Asia/Seoul
-    user: lena
-    password: "!lena00"
+    user: root
+    password: "root"
     initialization-mode: always
     sql-script-encoding: utf-8
     hibernate:
