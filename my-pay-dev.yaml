@@ -5,7 +5,7 @@ demo:
 primary:
   datasource:
     driver-class-name: org.mariadb.jdbc.Driver
-    url: jdbc:mariadb://34.64.112.225:3306/petclinic?serverTimezone=Asia/Seoul
+    url: jdbc:mariadb://34.64.112.225:3306/petclinic?useSSL=false&serverTimezone=Asia/Seoul
     user: lena
     password: "!lena00"
     initialization-mode: always
@@ -18,7 +18,7 @@ primary:
 secondary:
   datasource:
     driver-class-name: org.mariadb.jdbc.Driver
-    url: jdbc:mariadb://34.64.112.225:3306/petclinic2?serverTimezone=Asia/Seoul
+    url: jdbc:mariadb://34.64.112.225:3306/petclinic2?useSSL=false&serverTimezone=Asia/Seoul
     user: lena
     password: "!lena00"
     initialization-mode: always
