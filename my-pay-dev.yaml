@@ -4,7 +4,7 @@ demo:
   fileupload: .
 primary:
   datasource:
-    driver-class-name: com.mysql.cj.jdbc.Driver
+    driver-class-name: com.mysql.jdbc.Driver
     url: jdbc:mysql://10.178.15.203:3306/petclinic?useSSL=false&useUnicode=true&serverTimezone=Asia/Seoul
     user: root
     password: "root"
@@ -17,7 +17,7 @@ primary:
       maximum-pool-size: 15
 secondary:
   datasource:
-    driver-class-name: com.mysql.cj.jdbc.Driver
+    driver-class-name: com.mysql.jdbc.Driver
     url: jdbc:mysql://10.178.15.203:3306/petclinic2?useSSL=false&useUnicode=true&serverTimezone=Asia/Seoul
     user: root
     password: "root"
