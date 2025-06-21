@@ -5,9 +5,9 @@ demo:
 primary:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://10.178.0.6:3306/petclinic?useSSL=false
+    url: jdbc:mysql://rds-maria.cueq3esfcq6p.ap-northeast-2.rds.amazonaws.com:16033/petclinic?useSSL=false
     user: root
-    password: "root"
+    password: "!root1234"
     initialization-mode: always
     sql-script-encoding: utf-8
     hibernate:
@@ -18,9 +18,9 @@ primary:
 secondary:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://10.178.0.6:3306/petclinic2?useSSL=false
+    url: jdbc:mysql://rds-maria.cueq3esfcq6p.ap-northeast-2.rds.amazonaws.com:16033/lena?useSSL=false
     user: root
-    password: "root"
+    password: "!root1234"
     initialization-mode: always
     sql-script-encoding: utf-8
     hibernate:
